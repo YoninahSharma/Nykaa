@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nykaa</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.png" alt="" width="125" height="40"
+        /></a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <!-- Dropdown item 1 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                CATEGORIES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Makeup</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Skin</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Hair</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown item 2 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                BRAND
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">L'oreal</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Maybelline</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Faces Canada</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown item 3 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                NYKAA FASHION
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Lingerie</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bags & Footwear</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Jewellery</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown item 4 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                BEAUTY ADVICE
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Beauty Book</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Nykaa Tv</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Beauty Buying Guides</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown item 5 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                NYKAA NETWORK
+              </a>
+            </li>
+
+            <form class="">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+              />
+            </form>
+            <div class="right-menu d-flex">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"
+                  ><i class="far fa-user"></i> Account</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"
+                  ><i class="fas fa-shopping-bag"></i
+                ></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tabs -->
+    <section class="tab-content">
+      <!-- Tab Content 1 -->
+      <div id="tab-1-content" class="tab-content-item show">
+        <div class="tab-1-content-inner">
+          <img src="./img/slide3.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 2 -->
+      <div id="tab-2-content" class="tab-content-item">
+        <div class="tab-2-content-inner">
+          <img src="./img/slide2.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 3 -->
+      <div id="tab-3-content" class="tab-content-item">
+        <div class="tab-3-content-inner">
+          <img src="./img/slide1.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 4 -->
+      <div id="tab-4-content" class="tab-content-item">
+        <div class="tab-4-content-inner">
+          <img src="./img/slide4.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 5 -->
+      <div id="tab-5-content" class="tab-content-item">
+        <div class="tab-5-content-inner">
+          <img src="./img/slide5.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 6 -->
+      <div id="tab-6-content" class="tab-content-item">
+        <div class="tab-6-content-inner">
+          <img src="./img/slide6.gif" alt="" />
+        </div>
+      </div>
+      <!-- Tab Content 7 -->
+      <div id="tab-7-content" class="tab-content-item">
+        <div class="tab-7-content-inner">
+          <img src="./img/slide7.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="tabs">
+      <div id="tab-1" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-2" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-3" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-4" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-5" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-6" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+      <div id="tab-7" class="tab-item tab-border">
+        <i class="fas fa-circle fa-xs"></i>
+      </div>
+    </section>
+
+    <!-- Skincare -->
+    <section class="skincare">
+      <div class="container">
+        <img src="./img/skincare.jpg" alt="" class="center" />
+      </div>
+    </section>
+
+    <!-- Spotlight -->
+    <section>
+      <div class="container spotlight">
+        <h6>IN THE SPOTLIGHT</h6>
+      </div>
+    </section>
+
+    <!-- Card -->
+    <div class="container">
+      <div class="card" style="width: 60rem">
+        <div class="card-body-display">
+          <div class="card-body">
+            <img src="./img/1. mood.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/2. clinique.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#"> Eye Cream (5ml) & Pouch On Clinique Orders 2500+</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/3. olay.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 20% OFF + Free Highlighter</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/4. pixi.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off on Best of Beauty</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/5. forest.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/6. mcaffeine.gif" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/7. kama.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto Rs. 3200+ Off </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beauty Bonanza -->
+      <div class="beauty-bonanza">
+        <a href="#"><img src="./img/beauty_bonanza.jpg" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Special Selection -->
+    <section>
+      <div class="container selection">
+        <h6>SPECIAL SELECTION FOR YOU</h6>
+      </div>
+    </section>
+
+    <!-- Selection Cards -->
+    <div class="container">
+      <div class="card" style="width: 60rem">
+        <div class="card-body-display">
+          <div class="card-body">
+            <img src="./img/8. aveeno.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/9. bath.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#"> Fragrenced Shampoo, Conditioners and more</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/10. cetaphil.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 20% OFF</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/11. cheryl's.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Free Jade Roller</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/12. cocomo.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/13. fiama.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/14. loreal.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto Rs. 3200+ Off </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Store in focus -->
+      <section>
+        <div class="container selection">
+          <h6>STORE IN FOCUS</h6>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="card" style="width: 60rem">
+          <div class="card-body-display">
+            <div class="card-body">
+              <img
+                src="./img/15. beautybook.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <img src="./img/16. fashion.gif" class="card-img-top" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category in Focus -->
+    <section>
+      <div class="container selection">
+        <h6>CATEGORY IN FOCUS</h6>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="container">
+        <img src="./img/mom&baby.jpg" alt="" class="center" />
+      </div>
+    </section>
+
+    <!-- Featured Brand -->
+    <section>
+      <div class="container selection">
+        <h6>FEATURED BRAND</h6>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="card" style="width: 60rem">
+        <div class="card-body-display-2">
+          <div class="card-body">
+            <img src="./img/17. fiama2.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/18. sally.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#"> Get Salon Perfect Manicure</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/19. ikkai.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 20% OFF</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/20. lotus.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Organic Products</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/21. mamaearth.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/22. matrix.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/23. skin.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/24. shower.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto Rs. 3200+ Off </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Editor's Choice -->
+      <section class="editor">
+        <div class="container">
+          <img src="./img/editors_choice.jpg" alt="" class="center" />
+          <img src="./img/25. eyeshadow.jpg" alt="" class="img1">
+          <img src="./img/26. nykaa4.jpg" alt="" class="img2">
+          <img src="./img/27. swisse.jpg" alt="" class="img3">
+        </div>
+      </section>  
+    
+      <!-- Featured Brand -->
+    <section>
+      <div class="container selection">
+        <h6>DISCOVER NOW</h6>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="card" style="width: 60rem">
+        <div class="card-body-display">
+          <div class="card-body">
+            <img src="./img/28. nykaalove.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 50% Off</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/29. nykaa_naturals.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#"> Get Salon Perfect Manicure</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/30. nykaa_fashion.gif" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Upto 20% OFF</a>
+            </p>
+          </div>
+          <div class="card-body">
+            <img src="./img/31. nykaa_luxe.jpg" class="card-img-top" alt="..." />
+            <p class="card-text">
+              <a href="#">Organic Products</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Donate -->
+      <section class="editor">
+        <div class="container">
+          <img src="./img/donate_now.jpg" alt="" class="center" />
+        </div>
+      </section> 
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

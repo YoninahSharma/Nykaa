@@ -1,0 +1,209 @@
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(255, 81, 197);
+}
+
+.right-menu {
+  padding-left: 190px;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.tabs {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  size: 5x;
+}
+
+.tabs i {
+  padding-right: 10px;
+  color: rgb(255, 155, 222);
+}
+
+.tabs i:hover {
+  color: rgb(255, 0, 170);
+}
+
+.tabs > div {
+  padding: 1px;
+}
+
+.tabs > div:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Tab Content */
+.tab-content {
+  padding-top: 65px;
+}
+
+.tab-content img {
+  width: 100%;
+}
+
+/* hide content initailly */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content,
+#tab-4-content,
+#tab-5-content,
+#tab-6-content,
+#tab-7-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.skincare {
+  padding-top: 10px;
+}
+
+.skincare .container .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.spotlight h6 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(44, 44, 44);
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+
+.card-body-display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.card-text a {
+  color: rgb(255, 0, 170);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.beauty-bonanza {
+  padding-top: 20px;
+}
+
+.beauty-bonanza a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.selection h6 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(44, 44, 44);
+}
+
+.category {
+  padding-top: 10px;
+}
+
+.category .container .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+
+.card-body-display-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.card-text a {
+  color: rgb(255, 0, 170);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.editor {
+  padding-top: 10px;
+}
+
+.editor .container {
+  position: relative;
+}
+
+.editor .container .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.editor .container .img1 {
+  position: absolute;
+  bottom: 65px;
+  right: 605px;
+  z-index: 3;
+  width: 180px;
+  height: 180px;
+}
+
+.editor .container .img2 {
+  position: absolute;
+  bottom: 65px;
+  right: 395px;
+  z-index: 3;
+  width: 180px;
+  height: 180px;
+}
+
+.editor .container .img3 {
+  position: absolute;
+  bottom: 65px;
+  right: 185px;
+  z-index: 3;
+  width: 180px;
+  height: 180px;
+}
+/* .img1 {
+  z-index: 1;
+}*/
