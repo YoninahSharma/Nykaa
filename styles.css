@@ -163,15 +163,18 @@ body {
   padding-top: 20px;
 }
 
-.editor {
+.editor,
+.bestdeals {
   padding-top: 10px;
 }
 
-.editor .container {
+.editor .container,
+.bestdeals .container {
   position: relative;
 }
 
-.editor .container .center {
+.editor .container .center,
+.bestdeals .container .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -204,6 +207,45 @@ body {
   width: 180px;
   height: 180px;
 }
-/* .img1 {
-  z-index: 1;
-}*/
+
+.bestdeals .container .img1 {
+  position: absolute;
+  bottom: 65px;
+  right: 345px;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+}
+
+.bestdeals .container .img2 {
+  position: absolute;
+  bottom: 65px;
+  right: 105px;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+}
+
+.allinone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer .container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.email {
+  border: none;
+  border-bottom: 2px solid white;
+  color: #fff;
+}
+
+.button {
+  border: 2px solid white;
+  font-size: 15px;
+  padding: 5px;
+}
