@@ -232,10 +232,13 @@ body {
 }
 
 .footer .container {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 40px 10% 40px 10%;
   font-weight: bold;
   font-size: small;
+}
+
+.three {
+  font-weight: normal;
 }
 
 .email {
@@ -248,4 +251,22 @@ body {
   border: 2px solid white;
   font-size: 15px;
   padding: 5px;
+}
+
+.five {
+  display: flex;
+}
+
+.five img {
+  padding: 0 5px 0 5px;
+}
+
+.six {
+  font-weight: normal;
+}
+
+.twof .container table tr {
+  /* margin: 0 10% 0 10%; */
+  /* background-color: #6c757d; */
+  padding: 40px 10% 40px 10%;
 }
