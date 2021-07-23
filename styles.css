@@ -265,8 +265,33 @@ body {
   font-weight: normal;
 }
 
-.twof .container table tr {
-  /* margin: 0 10% 0 10%; */
-  /* background-color: #6c757d; */
-  padding: 40px 10% 40px 10%;
+.twof .container {
+  padding: 40px 0 40px 0;
+}
+
+.twof .container table {
+  margin: auto;
+}
+
+.twof .container table tr td,
+.twof .container table tr th {
+  padding: 0 15px;
+}
+
+.threef {
+  margin: auto;
+}
+
+/* .threef .container .allinone2 .one,
+.threef .container .allinone2 .two,
+.threef .container .allinone2 .three {
+  padding: 40px 0 40px 0;
+  display: flex;
+} */
+
+.threef .container .allinone2 {
+  display: flex;
+  padding: 40px 0 40px 0;
+
+  /* margin: auto; */
 }
