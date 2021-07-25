@@ -316,7 +316,24 @@ body {
   background-color: rgb(255, 0, 106);
 }
 
-.fourf .container .row .a {
+.fourf .container {
+  padding: 10px 0;
+}
+
+.fourf .container .row .a a {
   margin: auto;
   font-size: small;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fourf .container p {
+  color: #fff;
+  text-align: center;
+  font-size: small;
+  padding-top: 10px;
+}
+
+.fivef {
+  padding-top: 40px;
 }
