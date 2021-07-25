@@ -33,6 +33,10 @@ body {
   color: rgb(255, 0, 170);
 }
 
+.tabs .tab-border i {
+  color: rgb(255, 0, 170);
+}
+
 .tabs > div {
   padding: 1px;
 }
@@ -314,24 +318,38 @@ body {
 
 .fourf {
   background-color: rgb(255, 0, 106);
+  padding-bottom: 10px;
 }
 
 .fourf .container {
-  padding: 10px 0;
-}
-
-.fourf .container .row .a a {
+  padding: 10px 0px;
   margin: auto;
   font-size: small;
   color: #fff;
   text-decoration: none;
-}
-
-.fourf .container p {
+  text-align: center;
+  letter-spacing: 2;
   color: #fff;
   text-align: center;
   font-size: small;
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourf .container a {
+  text-decoration: none;
+  color: white;
+}
+
+.fourf .container .terms {
+  padding: 0 10px;
+}
+
+.fourf .copyright {
+  text-align: center;
+  color: white;
+  font-size: small;
 }
 
 .fivef {
